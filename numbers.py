@@ -10,3 +10,5 @@ if number == 0:
 elif number == 1:
     print('number is uneven')
 
+print('the result is' + number)
+
