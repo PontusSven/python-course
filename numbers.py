@@ -10,5 +10,11 @@ if number == 0:
 elif number == 1:
     print('number is uneven')
 
-print('the result is' + number)
+print(type(number))
+
+income = 10
+rate = 0.2
+taxes = income * rate
+
+print(taxes)
 
