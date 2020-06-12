@@ -33,3 +33,7 @@ myDictionary = {'k1': 3, 'k2': 6}
 for key, value in myDictionary.items():
     print(key)
     print(value)
+
+word = 'abcde'
+for item in enumerate(word):
+    print(item)
