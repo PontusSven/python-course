@@ -37,3 +37,8 @@ for key, value in myDictionary.items():
 word = 'abcde'
 for item in enumerate(word):
     print(item)
+
+myList2 = [1,2,3,4,5,6,7,8,9,10]
+
+for item in myList2:
+    print(item)
