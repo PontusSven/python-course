@@ -1,4 +1,26 @@
 
+"""
+
+def myfunc(word):
+    result = ""
+    for index, letter in enumerate(word):
+        if index % 2 == 0:
+            result += letter.lower()
+        else:
+            result += letter.upper()
+    return result
+
+result = myfunc('hellothereasdasda')
+print(result)
+
+def myfunc(*args):
+    myList = []
+    for num in args:
+        if num % 2 == 0:
+            myList.append(num)
+    
+    return myList
+
 
 # FizzBuzz
 for num in range(1,101):
@@ -10,9 +32,6 @@ for num in range(1,101):
         print('Buzz')
     else:
         print(num)
-    
-
-"""
 
 st = 'Print every word in this sentence that has an een number of letters'
 
